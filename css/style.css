@@ -1,0 +1,221 @@
+@font-face {
+  font-family: font-awesome;
+  src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff);
+}
+body {
+  color: #a0a3a7;
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+h1, h2 {
+  font-size: 1em;
+  font-weight: normal;
+}
+h3 {
+  font-size: 2em;
+  font-weight: normal;
+}
+h4 {
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+p {
+  line-height: 2em;
+}
+.centered {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-basis-50 {
+  flex-basis: 50%;
+}
+.font-awesome {
+  color: #ffe082;
+  font-family: font-awesome;
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: normal;
+}
+.link.varela {
+  font-size: 12px;
+  /*font-weight: bold;*/
+}
+.link.varela::after {
+  content: '›';
+  margin-top: -2px;
+}
+.varela {
+  font-family: 'Varela Round', sans-serif;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.header {
+  color: #a0a3a7;
+  padding: 1em 0;
+}
+.header > * {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+.contain-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.full-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.line {
+  border-top: 2px solid #b5b7b9;
+  margin: 0 auto;
+  width: 1.5em;
+}
+.khaki {
+  background-color: #f5f6f4;
+  color: #9a9b9c;
+}
+.khaki a {
+  color: #9a9b9c;
+}
+.umber {
+  background-color: #cec2bd;
+  color: white;
+}
+.umber a {
+  color: white;
+}
+.menu {
+  padding: 5px 0;
+  text-align: center;
+  width: 100%;
+}
+.menu a {
+  font-size: 11px;
+  /*font-weight: bold;*/
+  margin: 0 1.5em;
+}
+.hero-image {
+  height: calc(100vh - 200px);
+  min-height: 500px;
+  position: relative;
+  width: 100%;
+}
+.hero-image-overlay {
+  background-color: black;
+  height: 100%;
+  opacity: 50%;
+  position: absolute;
+  width: 100%;
+}
+.hero-image-content {
+  color: white;
+}
+.hero-image-content h3 {
+  margin: 0 0 0.5em 0;
+}
+.hero-image-content p {
+  margin-bottom: 2.5em;
+}
+.hero-image-content a {
+  border: 2px solid white;
+  color: white;
+  font-size: 13px;
+  padding: 1em 1.5em;
+}
+.hero-image-content a:hover {
+  background-color: white;
+  border: 2px solid white;
+  color: black;
+  font-size: 13px;
+  padding: 1em 1.5em;
+}
+.body-panel {
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+.body-content {
+  display: table-cell;
+  padding: 8% 10%;
+}
+.body-content-half {
+  width: 50%;
+}
+.body-content-bleed {
+  padding: 0;
+}
+.footer {
+  padding: 8% 0 10%;
+  width: 100%;
+}
+.footer-content {
+  /*display: inline-block;*/
+  position: relative;
+  text-align: start;
+  vertical-align: top;
+  width: 22%;
+}
+.footer-content:first-child {
+  /*margin-left: 10%;*/
+  padding-left: 10%;
+}
+.footer-content:first-child a {
+  margin-bottom: 0.8em;
+}
+.footer-content:first-child .link {
+  margin-top: 3.2em;
+}
+.footer-content:nth-child(2) {
+  padding-right: 5%;
+}
+.footer-content:nth-child(2) .link {
+  bottom: 0.6em;
+  position: absolute;
+}
+.footer-content:last-child {
+  /*float: right;*/
+  padding-right: 10%;
+  width: 34%;
+}
+.footer-content a {
+  display: block;
+}
+#post-reference {
+  vertical-align: bottom;
+}
+#post-reference > div > a {
+  color: white;
+  position: relative;
+}
+#post-container {
+  font-size: 13px;
+  line-height: 1.7em;
+}
+#post-container .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
