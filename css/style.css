@@ -177,6 +177,9 @@ p {
 .body-content-bleed {
   padding: 0;
 }
+.body-content h4 {
+  font-weight: bold;
+}
 .footer {
   padding: 8% 10%;
   width: 80%;
@@ -265,4 +268,46 @@ p {
 }
 .social-block div {
   margin-top: 1em;
+}
+
+@media only screen and (max-width: 916px) {
+  h3 {
+    font-size: 1.6em;
+  }
+  .body-panel {
+    position: relative;
+  }
+  .body-content-half:first-child.full-image {
+    bottom: 0;
+    position: absolute;
+  }
+  .body-content-half.full-image + .body-content-half {
+    margin-bottom: 100vw;
+  }
+  .body-content-half {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .contain-image,
+  .full-image,
+  .half-image {
+    min-height: 100vw;
+    min-width: 100%;
+  }
+  #post-reference {
+    width: 100%;
+  }
+  .footer.body-panel {
+    display: inline-block;
+  }
+  .footer-content:first-child {
+    width: 39%;
+  }
+  .footer-content:nth-child(2) {
+    width: 39%;
+  }
+  .footer-content:last-child {
+    display: block;
+  }
 }
