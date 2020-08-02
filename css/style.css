@@ -328,4 +328,14 @@ p {
     height: 80vw;
     width: 80vw;
   }
+  .post-header .font-awesome {
+    display: inline-block;
+    margin: 0 !important;
+    width: 100%;
+  }
+  .post-header .font-awesome+span {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }
