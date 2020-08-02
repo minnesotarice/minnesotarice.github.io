@@ -3,8 +3,9 @@
   src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff);
 }
 body {
-  color: #a0a3a7;
-  font-family: 'Crimson Text', serif;
+  /*color: #a0a3a7;*/
+  color: #646464;
+  font-family: 'Playfair Display', serif;
   /*font-style: italic;*/
   height: 100%;
   margin: 0;
@@ -22,7 +23,8 @@ h4 {
   font-weight: normal;
 }
 a {
-  color: #a0a3a7;
+  /*color: #a0a3a7;*/
+  color: #646464;
   text-decoration: none;
 }
 a:hover {
@@ -75,7 +77,8 @@ p {
   text-transform: uppercase;
 }
 .header {
-  color: #a0a3a7;
+  /*color: #a0a3a7;*/
+  color: #646464;
   padding: 1em 0;
 }
 .header h2 {
@@ -97,19 +100,23 @@ p {
   background-size: cover;
 }
 .line {
-  border-top: 2px solid #b5b7b9;
+  /*border-top: 2px solid #b5b7b9;*/
+  border-top: 2px solid #646464;
   margin: 0 auto;
   width: 1.5em;
 }
 .khaki {
   background-color: #f5f6f4;
-  color: #9a9b9c;
+  /*color: #9a9b9c;*/
+  color: #646464;
 }
 .khaki a {
-  color: #9a9b9c;
+  /*color: #9a9b9c;*/
+  color: #646464;
 }
 .umber {
-  background-color: #cec2bd;
+  /*background-color: #cec2bd;*/
+  background-color: #948c84;
   color: white;
 }
 .umber a {
@@ -199,16 +206,16 @@ p {
 .footer-content:not(:last-child) a {
   margin-bottom: 0.8em;
 }
-.footer-content:first-child .link {
+/*.footer-content:first-child .link {
   margin-top: 5.6em;
-}
+}*/
 .footer-content:nth-child(2) {
   /*padding-right: 5%;*/
   width: 250px;
 }
-.footer-content:nth-child(2) .link {
+/*.footer-content:nth-child(2) .link {
   margin-top: 3em;
-}
+}*/
 .footer-content:last-child {
   /*float: right;*/
   padding-right: 10%;
@@ -309,5 +316,16 @@ p {
   }
   .footer-content:last-child {
     display: block;
+  }
+  .social-block {
+    width: 100%;
+  }
+  .social-block .full-image {
+    max-height: 296px;
+    max-width: 296px;
+    min-height: 0;
+    min-width: 0;
+    height: 80vw;
+    width: 80vw;
   }
 }
