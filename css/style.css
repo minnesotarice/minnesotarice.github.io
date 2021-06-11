@@ -304,6 +304,18 @@ p {
   max-width: 100%;
 }
 
+.press-title {
+  font-size: 1.4em;
+  letter-spacing: 0.14em;
+  line-height: 2.4em;
+  max-width: 960px;
+  margin: 4em auto 0;
+}
+.press-author {
+  font-size: 0.9em;
+  margin-bottom: 6em;
+}
+
 #close-gallery {
   font-size: 0.8em;
   padding: 14px;
@@ -420,5 +432,12 @@ p {
     display: inline-block;
     width: 100%;
     margin-bottom: 1em;
+  }
+  .press-title {
+    font-size: 1.2em;
+    margin-top: 2em;
+  }
+  .press-author {
+    margin-bottom: 4em;
   }
 }
